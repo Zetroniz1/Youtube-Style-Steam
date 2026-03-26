@@ -1,0 +1,50 @@
+@-moz-document url-prefix("https://www.youtube.com/") {
+
+}
+html, [system-icons], [iron-icon], ytd-app, 
+ytd-masthead, #masthead-container.ytd-app,
+#contentContainer.ytd-app, #page-manager.ytd-app {
+    background-color: #171a21 !important;
+    --yt-spec-base-background: #171a21 !important;
+    --yt-spec-general-background-a: #1b2838 !important;
+}
+
+.ytp-play-progress {
+    background: #66c0f4 !important;
+    box-shadow: 0 0 10px #66c0f4, 0 0 20px rgba(102, 192, 244, 0.4) !important;
+}
+
+#subscribe-button yt-button-shape button,
+.ytd-subscribe-button-renderer button {
+    background: linear-gradient(to bottom, #75b022 5%, #588a1b 95%) !important;
+    color: #ffffff !important;
+    border-radius: 3px !important;
+    font-weight: bold !important;
+    border: 1px solid #3d5a13 !important;
+}
+
+
+#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer yt-icon,
+.style-scope.ytd-guide-entry-renderer[active] yt-icon {
+    color: #66c0f4 !important;
+    filter: drop-shadow(0 0 5px #66c0f4) !important;
+}
+
+
+ytd-rich-item-renderer, ytd-compact-video-renderer {
+    background: #1b2838 !important;
+    border-radius: 4px !important;
+    margin-bottom: 8px !important;
+    padding: 5px !important;
+}
+
+
+ytd-topbar-logo-renderer#logo svg {
+    filter: drop-shadow(0 0 5px #66c0f4) !important;
+}
+
+
+#masthead-container.ytd-app {
+    background: linear-gradient(to right, #171a21, #2a475e) !important;
+    border-bottom: 1px solid #2a475e !important;
+}
